@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-img {
+  width: 30%;
+}
+
+.google-search-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 500px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.searchInput-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.search-input {
+  width: 90%;
+  font-size: 20px;
+  outline: none;
+  border-width: 0px;
+  font-family: 'roboto';
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.list-container {
+  padding-left: 10px;
+}

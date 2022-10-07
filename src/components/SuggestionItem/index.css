@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.suggestions-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.arrow-button {
+  background-color: transparent;
+  width: 30%;
+  border-width: 0px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
